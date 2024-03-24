@@ -9,17 +9,17 @@ If the driver gets more than 12 points, the function should print: “License su
 function checkSpeed (speed) {
     const speedLimit = 70;
     const kmPerDemeritPoint = 5;
-    const demeritLimit = 12;
+    const demeritThreshold = 12;
 
     // control structures
     // Math.flow - JS function that deals with mathematics functions
     
     if (speed <= speedLimit) {
-        return "Ok";
+        return "OK";
     } 
     const excessSpeed = speed - speedLimit
     const demeritPoints = Math.floor(excessSpeed/ kmPerDemeritPoint);
-        if (demeritPoints > demeritLimit) {
+        if (demeritPoints > demeritThreshold) {
             return "License suspended";
         } else {
             console.log(demeritPoints);
@@ -29,6 +29,7 @@ function checkSpeed (speed) {
 
 
 // Test the function with different speeds
+console.log(checkSpeed(10));
 console.log(checkSpeed(80)); 
 console.log(checkSpeed(90)); 
 console.log(checkSpeed(300)); 
