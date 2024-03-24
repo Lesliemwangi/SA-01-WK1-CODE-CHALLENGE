@@ -6,6 +6,7 @@ A > 79, B - 60 to 79, C -  49 to 59, D - 40 to 49, E - less 40. */
 function studentGrader(score) {
     // declare an empty variable grade
     let grade = " ";
+    // use if, else and else if as control structures
     if (score > 100 || score < 0) {
       grade = "Invalid input";
     } else if (score > 79) {
@@ -23,6 +24,7 @@ function studentGrader(score) {
     return grade;
   }
   
+// test the function with different grades 
   console.log(studentGrader(120)); 
   console.log(studentGrader(80));
   console.log(studentGrader(65));

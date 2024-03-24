@@ -2,9 +2,10 @@
 Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 NB: Use KRA, NHIF, and NSSF values provided in the link below. */
 
-// declare a function
+// declare the calculate Payee function
 function calculatePayee(grossSalary) {
   const payee = 0;
+  // use if, else and else if as control structures
   if (grossSalary <= 24000) {
     payee = 0;
   } else if (grossSalary > 24000 && grossSalary <= 32333) {
@@ -23,8 +24,10 @@ function calculatePayee(grossSalary) {
   return payee;
 }
 
+// declare the calculate NHIF Deduction function
 function calculateNHIFDeductions(grossSalary) {
   const nhifDeductions = 0;
+  // use if, else and else if as control structures
   if (grossSalary <= 5999) {
     nhifDeductions = 150;
   } else if (grossSalary > 5999 && grossSalary <= 7999) {
@@ -53,8 +56,10 @@ function calculateNHIFDeductions(grossSalary) {
   return nhifDeductions;
 }
 
+// declare the calculate NSSF Deduction function
 function calculateNSSFDeductions(grossSalary) {
   const nssfDeductions = 0;
+  // use if, else and else if as control structures
   if (grossSalary <= 6000) {
     nssfDeductions = 360;
   } else if (grossSalary > 6000 && grossSalary <= 18000) {
@@ -65,6 +70,7 @@ function calculateNSSFDeductions(grossSalary) {
   return nssfDeductions;
 }
 
+// declare the calculate Net Salary function
 function calculateNetSalary(basicSalary, benefits) {
   // calculate gross salary
   const grossSalary = basicSalary + benefits;
@@ -86,6 +92,7 @@ function calculateNetSalary(basicSalary, benefits) {
   };
 }
 
+// test the functions with different amounts
 console.log(grossSalary);
 console.log(payee);
 console.log(nhifDeductions);

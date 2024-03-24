@@ -11,14 +11,14 @@ function checkSpeed (speed) {
     const kmPerDemeritPoint = 5;
     const demeritThreshold = 12;
 
-    // control structures
-    // Math.flow - JS function that deals with mathematics functions
-    
+    // use if, else and else if as control structures
     if (speed <= speedLimit) {
         return "OK";
     } 
     const excessSpeed = speed - speedLimit
     const demeritPoints = Math.floor(excessSpeed/ kmPerDemeritPoint);
+     // Math.flow - JS function that deals with mathematics functions
+    
         if (demeritPoints > demeritThreshold) {
             return "License suspended";
         } else {
@@ -28,7 +28,7 @@ function checkSpeed (speed) {
     }
 
 
-// Test the function with different speeds
+// test the function with different speeds
 console.log(checkSpeed(10));
 console.log(checkSpeed(80)); 
 console.log(checkSpeed(90)); 

@@ -5,6 +5,8 @@
 #### By Leslie Wambui Mwangi
 
 ## Description
+This is a ReadMe file that explains how I solved my week 1 code challenge.
+
 ### Prerequisite
 1. Create a repository on your GitHub account.
 2. Use Javascript to wire down the solution.
