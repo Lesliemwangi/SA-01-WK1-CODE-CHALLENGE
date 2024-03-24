@@ -92,9 +92,4 @@ function calculateNetSalary(basicSalary, benefits) {
   };
 }
 
-// test the functions with different amounts
-console.log(grossSalary);
-console.log(payee);
-console.log(nhifDeductions);
-console.log(nssfDeductions);
-console.log(netSalary);
+
