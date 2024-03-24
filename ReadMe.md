@@ -63,8 +63,7 @@ You use git clone to be able to download the documents in the GitHub
 Git
 
 ### Installation instruction
-
-Git clone git@github.com:Lesliemwangi/SA-01-WK1-CODE-CHALLENGE.git
+git@github.com:Lesliemwangi/SA-01-WK1-CODE-CHALLENGE.git
 
 
 
