@@ -64,12 +64,12 @@ Git
 
 ### Installation instruction
 
-Git clone git@github.com:Lesliemwangi/SA.01-WK1-Code-Challenge.git
+Git clone git@github.com:Lesliemwangi/SA-01-WK1-CODE-CHALLENGE.git
 
 
 
 # Live Link
-https://github.com/Lesliemwangi/SA.01-WK1-Code-Challenge.git
+https://github.com/Lesliemwangi/SA-01-WK1-CODE-CHALLENGE.git
 
 ## Technologies used
 Github
