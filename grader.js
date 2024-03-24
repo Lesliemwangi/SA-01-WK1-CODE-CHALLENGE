@@ -23,9 +23,11 @@ function studentGrader(score) {
     return grade;
   }
   
+  console.log(studentGrader(120)); 
   console.log(studentGrader(80));
   console.log(studentGrader(65));
   console.log(studentGrader(55));
   console.log(studentGrader(40));
   console.log(studentGrader(30));
+  console.log(studentGrader(-5));
   
