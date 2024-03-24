@@ -53,7 +53,7 @@ function calculateNHIFDeductions(grossSalary) {
   return nhifDeductions;
 }
 
-function NSSFDeductions(grossSalary) {
+function calculateNSSFDeductions(grossSalary) {
   const nssfDeductions = 0;
   if (grossSalary <= 6000) {
     nssfDeductions = 360;
