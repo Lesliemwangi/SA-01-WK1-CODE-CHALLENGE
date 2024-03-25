@@ -58,6 +58,12 @@ I used the calculateNHIFDeductions function to calculate the NHIF deductions bas
 I used the calculateNSSFDeductions function to calculate the NSSF deductions based on the given gross salary, I then used the NSSF rates to determine the NSSF deductions.
 I then used the calculateSalary function taken from the basic salary and benefits to calculate the gross salsry, payee, NHIF deductions, NSSF deductions and the net salary.
 
+### Resources
+https://www.w3schools.com/js/js_functions.asp
+https://www.w3schools.com/js/js_if_else.asp
+https://youtu.be/KV31mJuUJnw?si=P08IC72jyk4vn24m
+https://youtu.be/j1laALb8OVM?si=s8qFYPHwaSPhwexZ
+
 ## Installation
 You use git clone to be able to download the documents in the GitHub
 
