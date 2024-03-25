@@ -60,8 +60,11 @@ I then used the calculateSalary function taken from the basic salary and benefit
 
 ### Resources
 https://www.w3schools.com/js/js_functions.asp
+
 https://www.w3schools.com/js/js_if_else.asp
+
 https://youtu.be/KV31mJuUJnw?si=P08IC72jyk4vn24m
+
 https://youtu.be/j1laALb8OVM?si=s8qFYPHwaSPhwexZ
 
 ## Installation
